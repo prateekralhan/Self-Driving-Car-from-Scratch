@@ -54,7 +54,6 @@ However,I included some crucial changes.
 
 ![archi](https://user-images.githubusercontent.com/29462447/50538200-dac4ba00-0b91-11e9-9bd6-c487c77cb1fd.png)
 
-
 ## Training
 
 All computations were run on an Ubuntu 16.04 system with an Intel i7 7700 processor and an NVIDIA GTX 1050Ti, while the training and the code _model.ipynb_ was executed in _GOOGLE COLAB_.
@@ -67,7 +66,12 @@ A random training example is chosen:
     4.Random flip: to make sure left and right turns occur just as frequently
     5.Random brightness: to simulate differnt lighting conditions
 
+![aug](https://user-images.githubusercontent.com/29462447/50538216-3f801480-0b92-11e9-9be2-2c40fa2ae36f.png)
 
+![pre](https://user-images.githubusercontent.com/29462447/50538220-44dd5f00-0b92-11e9-8f9c-60458c01ff5e.png)
+
+![prepro](https://user-images.githubusercontent.com/29462447/50538221-4870e600-0b92-11e9-88d6-21f7ee8cf3f6.png)
+    
 ## Epochs and Validation
 
 For validation purposes 10% of the training data (about 1000 images) was held back. Only the center camera imags are used for validation. After few epochs (~10) the validation and training loss settle. The validation loss is consistently about half of the training loss, which indicates underfitting, however with the caveat that training and validation data are not drawn from the same sample: there is no data augmentation for the validation data. A more robust albeit non-automatic metric consists of checking the performance of the network by letting it drive the car on the second track which was not used in training.

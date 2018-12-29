@@ -48,7 +48,12 @@ image
 Without accounting for this bias towards zero, the car leaves the track quickly. One way to counteract this problem is to purposely let the car drift towards the side of the road and to start recovery in the very last moment. However, the correct large steering angles are not easy to generate this way, because even then most of the time the car drives straight, with the exception of the short moment when the driver avoids a crash or the car going off the road.
 
 ## Model Architecture
-image
+
+For the network architecture I decided to draw on a CNN that evolved from a previous submission for classfying traffic signs with high accuracy(>95%) given here. 
+However,I included some crucial changes.
+
+![archi](https://user-images.githubusercontent.com/29462447/50538200-dac4ba00-0b91-11e9-9bd6-c487c77cb1fd.png)
+
 
 ## Training
 

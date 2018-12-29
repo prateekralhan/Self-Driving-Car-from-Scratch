@@ -50,6 +50,9 @@ The main problem lies in the skew and bias of the data set. Shown below is a his
 ## Model Architecture
 
 For the network architecture I decided to draw on a CNN that evolved from a previous submission for classfying traffic signs with high accuracy(>95%) given here. 
+
+https://github.com/prateekralhan/Traffic-Sign-Classification
+
 However,I included some crucial changes.
 
 ![archi](https://user-images.githubusercontent.com/29462447/50538200-dac4ba00-0b91-11e9-9bd6-c487c77cb1fd.png)

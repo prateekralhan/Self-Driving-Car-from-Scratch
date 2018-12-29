@@ -35,6 +35,10 @@ _python drive.py_
 To train the model, first make a directory, drive the car in training mode around the track and save the data to this directory. The model is then trained by executing the _Model.ipynb_ using _jupyter notebook_, where you need to upload the customized dataset, perform data preprocessing, generate and train the model as well as create the validation and testing datasets. After successful training, the trained CNN can be downloaded as a _model_1.h5_ file.
 I would suggest use _GOOGLE COLAB_ for faster training and execution.
 
+![graph](https://user-images.githubusercontent.com/29462447/50538264-a00f5180-0b92-11e9-8d40-826e07ff5564.png)
+
+
+
 You can also download the dataset that I developed for the project by typing: _git clone https://github.com/prateekralhan/track.git_
 
 ## General considerations

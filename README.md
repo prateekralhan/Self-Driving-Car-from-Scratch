@@ -8,6 +8,7 @@ From generating my own custom dataset followed by Lane Detection using OpenCV4.0
 Find the complete installation guide here: https://www.pyimagesearch.com/opencv-tutorials-resources-guides/
 
 2. socketio/eventlet/numpy/flask/keras/pillow/jupyter notebook:
+
 Do : _pip install socketio/eventlet/numpy/flask/keras/pillow/jupyter notebook_
 
 ## Project Structure

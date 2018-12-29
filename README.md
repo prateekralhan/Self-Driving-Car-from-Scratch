@@ -37,7 +37,7 @@ I would suggest use _GOOGLE COLAB_ for faster training and execution.
 
 ![graph](https://user-images.githubusercontent.com/29462447/50538264-a00f5180-0b92-11e9-8d40-826e07ff5564.png)
 
-
+![both](https://user-images.githubusercontent.com/29462447/50538271-c33a0100-0b92-11e9-9e9f-048ac4243e00.png)
 
 You can also download the dataset that I developed for the project by typing: _git clone https://github.com/prateekralhan/track.git_
 

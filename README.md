@@ -77,9 +77,9 @@ A random training example is chosen:
     
 ## Epochs and Validation
 
-For validation purposes 10% of the training data (about 1000 images) was held back. Only the center camera imags are used for validation. After few epochs (~10) the validation and training loss settle. The validation loss is consistently about half of the training loss, which indicates underfitting, however with the caveat that training and validation data are not drawn from the same sample: there is no data augmentation for the validation data. A more robust albeit non-automatic metric consists of checking the performance of the network by letting it drive the car on the second track which was not used in training.
+For validation purposes 10% of the training data (about 1000 images) was held back. Only the center camera images are used for validation. After few epochs (~10) the validation and training loss settle. The validation loss is consistently about half of the training loss, which indicates underfitting, however with the caveat that training and validation data are not drawn from the same sample: there is no data augmentation for the validation data. A more robust albeit non-automatic metric consists of checking the performance of the network by letting it drive the car on the second track which was not used in training.
 
-We used an Adam optimizer for training. All training was performed at the fastest graphics setting.
+I used an Adam optimizer for training. All training was performed at the fastest graphics setting.
 
 ![train](https://user-images.githubusercontent.com/29462447/50538286-05fbd900-0b93-11e9-9d81-15ae23812346.png)
 

@@ -82,9 +82,11 @@ For validation purposes 10% of the training data (about 1000 images) was held ba
 
 We used an Adam optimizer for training. All training was performed at the fastest graphics setting.
 
+![train](https://user-images.githubusercontent.com/29462447/50538286-05fbd900-0b93-11e9-9d81-15ae23812346.png)
+
+## Results
 
 
-## Conclusions
 
 By making consequent use of image augmentation with subsequent steering angle updates we could train a neural network to recover the car from extreme events, like suddenly appearing curves change of lighting conditions by exclusively simulating such events from regular driving data, and the model seemed to be really stable on test tracks as shown:
 
